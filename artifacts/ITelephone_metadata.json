@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"telephone.sol": "ITelephone"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"telephone.sol": {
+			"keccak256": "0x9a8caaabaad8afd078f475000f6ac87a524c4ec018685cb134642e3bc015ae85",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a21c707e50efa49fbd8ba6beddc8484fb0ec93f964f58159bcebc3420ba9c86",
+				"dweb:/ipfs/Qmb2fM3Zd9H4tyCfrbeyFRx7YR97yJZUftBum76aBTQ6H3"
+			]
+		}
+	},
+	"version": 1
+}

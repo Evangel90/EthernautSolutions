@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "telephoneContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "takeOver",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"coinflip.sol": "TakeOwnership"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"coinflip.sol": {
+			"keccak256": "0x7921fd8cffec9bb8c5dffd323987bb2658bdf88fbba18940de7d7a0bc17c4bed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://710e06531a5566844f3718a089358bd6836250e6286cd0524943f40ecb79f314",
+				"dweb:/ipfs/QmTXB38UedZLw1iodbrKKSQeWcG15q93vUsWFTvAreUNpq"
+			]
+		}
+	},
+	"version": 1
+}
